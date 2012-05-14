@@ -1,8 +1,8 @@
 {
   "bounds": [
-    -180,
+    -82,
     -85.0511,
-    180,
+    -81,
     85.0511
   ],
   "center": [
@@ -622,6 +622,47 @@
       "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
       "srs-name": "900913",
       "status": "on"
+    },
+    {
+      "geometry": "linestring",
+      "Datasource": {
+        "type": "postgis",
+        "table": "( SELECT way, \"2015est\" AS type\n  FROM planet_osm_line\n  ORDER BY ST_YMin(ST_Envelope(way)) DESC\n) AS data",
+        "extent": "",
+        "key_field": "",
+        "geometry_field": "",
+        "dbname": "rms",
+        "host": "localhost",
+        "user": "skorasaurus",
+        "password": "yessem",
+        "id": "way2015estastypefrom",
+        "project": "rms",
+        "srs": null
+      },
+      "id": "2015est",
+      "class": "",
+      "srs-name": "900913",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "name": "2015est"
+    },
+    {
+      "geometry": "linestring",
+      "Datasource": {
+        "type": "postgis",
+        "table": "( SELECT way, \"2011cum\" AS type\n  FROM planet_osm_line\n  ORDER BY ST_YMin(ST_Envelope(way)) DESC\n) AS data",
+        "extent": "",
+        "key_field": "",
+        "geometry_field": "",
+        "dbname": "rms",
+        "host": "localhost",
+        "user": "skorasaurus",
+        "password": "yessem"
+      },
+      "id": "2011cum",
+      "class": "",
+      "srs-name": "900913",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "name": "2011cum"
     }
   ],
   "attribution": "Data © OpenStreetMap (and) contributors, CC-BY-SA",
