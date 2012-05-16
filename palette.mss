@@ -153,6 +153,6 @@ Map { font-directory: url(./fonts); }
 
 
 #cum {
-   [cum > 100] {polygon-fill: #324;}
+   [cum > 59] {polygon-fill: #324;}
   line-color:#168;
 }
