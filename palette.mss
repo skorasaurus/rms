@@ -144,14 +144,15 @@ Map { font-directory: url(./fonts); }
 @village_halo:      @place_halo;
 
 /* ****************************************************************** */
-
-#2015est {
-  line-width:1;
+/*
+#est { */
+  /* [2015est > 100] {polygon-fill: #324;} */
+/*  line-width:1; 
   line-color:#168;
-}
+} */ 
 
 
-#2011cum {
-  line-width:1;
+#cum {
+   [cum > 100] {polygon-fill: #324;}
   line-color:#168;
 }
