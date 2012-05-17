@@ -145,14 +145,19 @@ Map { font-directory: url(./fonts); }
 
 /* ****************************************************************** */
 /*
-#est { */
-  /* [2015est > 100] {polygon-fill: #324;} */
-/*  line-width:1; 
-  line-color:#168;
-} */ 
+#est {
+   [est >= 1] {polygon-fill: #F0F9E8;}
+   [est >= 50] {polygon-fill: #BAE4BC;}
+   [est >= 200] {polygon-fill: #7BCCC4;}
+   [est >= 400] {polygon-fill: #43A2CA;} */ 
+  /* 0868AC Fifth color */ 
 
-
+/* shades of blue */ 
 #cum {
-   [cum > 59] {polygon-fill: #324;}
+   [cum >= 1] {polygon-fill: #F0F9E8;}
+   [cum >= 50] {polygon-fill: #BAE4BC;}
+   [cum >= 200] {polygon-fill: #7BCCC4;}
+   [cum >= 400] {polygon-fill: #43A2CA;}
+  /* 0868AC Fifth color */ 
   line-color:#444;
 }
