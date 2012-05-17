@@ -6,13 +6,13 @@
     41.8655
   ],
   "center": [
-    -81.467,
-    41.5003,
-    7
+    -81.728,
+    41.4304,
+    10
   ],
   "format": "png",
   "interactivity": false,
-  "minzoom": 5,
+  "minzoom": 10,
   "maxzoom": 15,
   "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
   "Stylesheet": [
