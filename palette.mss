@@ -106,7 +106,7 @@ Map { font-directory: url(./fonts); }
 /* BOUNDARY COLORS
 /* ================================================================== */
 
-@admin_2:           #324;
+@admin_2:           #444;
 
 /* ================================================================== */
 /* LABEL COLORS
@@ -154,5 +154,5 @@ Map { font-directory: url(./fonts); }
 
 #cum {
    [cum > 59] {polygon-fill: #324;}
-  line-color:#168;
+  line-color:#444;
 }
