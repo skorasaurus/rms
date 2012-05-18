@@ -627,7 +627,7 @@
       "geometry": "linestring",
       "Datasource": {
         "type": "postgis",
-        "table": "( SELECT way, est\n  FROM planet_osm_polygon\n) AS data",
+        "table": "( SELECT way, name, est\n  FROM planet_osm_polygon\n) AS data",
         "extent": "",
         "key_field": "",
         "geometry_field": "way",
@@ -649,7 +649,7 @@
       "geometry": "linestring",
       "Datasource": {
         "type": "postgis",
-        "table": "( SELECT way, cum\n  FROM planet_osm_polygon\n) AS data",
+        "table": "( SELECT way, cum, name\n  FROM planet_osm_polygon WHERE cum > 0 \n) AS data",
         "extent": "",
         "key_field": "",
         "geometry_field": "way",
