@@ -15,16 +15,17 @@
 /* PLACE NAMES
 /* ================================================================== */
 
-#cum 
-
-{
- text-name:'[name]';
+#cum [cum > 50]{
+/* text-name:"[name]"; */
+  text-name:"[name]";
   text-face-name:@sans_bold;
   text-placement:point;
   text-fill:@country_text;
   text-halo-fill: @country_halo;
   text-halo-radius: 1;
   }
+
+
 
 
 #place::country[type='country'][zoom>3][zoom<9] {

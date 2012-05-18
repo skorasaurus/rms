@@ -167,7 +167,7 @@ Map { background-color: @water; }
 }
 #nhb[admin_level='8'][zoom>1] {
   line-color:@admin_2;
-  line-width:0.5;
+  line-width:0.75;
   [zoom=2] { line-opacity: 0.25; }
   [zoom=3] { line-opacity: 0.3; }
   [zoom=10] { line-opacity: 0.4; }
