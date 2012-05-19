@@ -144,23 +144,25 @@ Map { font-directory: url(./fonts); }
 @village_halo:      @place_halo;
 
 /* ****************************************************************** */
-
+/*
 #est {
-   [est >= 1] {polygon-fill: #F0F9E8;}
+   [est >= 0] {polygon-fill: #F0F9E8;}
    [est >= 50] {polygon-fill: #BAE4BC;}
    [est >= 200] {polygon-fill: #7BCCC4;}
    [est >= 400] {polygon-fill: #43A2CA;} 
    [est >= 1000] {polygon-fill: #0868AC} 
-}
+} */
   /* 0868AC Fifth color */ 
 
+
+
 /* shades of blue */ 
-/* #cum {
-   [cum >= 1] {polygon-fill: #F0F9E8;}
+ #cum {
+   [cum >= 0] {polygon-fill: #E3F9CF;}
    [cum >= 50] {polygon-fill: #BAE4BC;}
    [cum >= 200] {polygon-fill: #7BCCC4;}
    [cum >= 400] {polygon-fill: #43A2CA;}
    [cum >= 1000] {polygon-fill: #0868AC} 
-  line-color:#444; */
-
+  line-color:#444; 
+}
 

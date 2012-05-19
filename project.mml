@@ -677,7 +677,10 @@
         "dbname": "rms",
         "host": "localhost",
         "user": "skorasaurus",
-        "password": "yessem"
+        "password": "yessem",
+        "id": "nhb",
+        "project": "rms",
+        "srs": null
       },
       "id": "nhb",
       "class": "",

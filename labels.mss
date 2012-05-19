@@ -14,16 +14,15 @@
 /* ================================================================== */
 /* PLACE NAMES
 /* ================================================================== */
-
-#cum [cum > 50]{
-/* text-name:"[name]"; */
+/*
+#cum[cum > 50] {
   text-name:"[name]";
   text-face-name:@sans_bold;
   text-placement:point;
   text-fill:@country_text;
   text-halo-fill: @country_halo;
   text-halo-radius: 1;
-  }
+  } */
 
 
 
